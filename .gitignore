@@ -1,3 +1,10 @@
 *.out
 *.exe
 *.bat
+*.class
+my_env/*
+env/*
+myenv/*
+*.pyc
+__pycache__/*
+
