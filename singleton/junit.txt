@@ -1,0 +1,11 @@
+---------------------------------------------------------------------------------------------------------
+javac -d target -cp target:junit-platform-console-standalone-1.14.1.jar Test3.java
+
+java -jar junit-platform-console-standalone-1.14.1.jar --class-path target --select-class Test3
+
+---------------------------------------------------------------------------------------------------------
+
+javac -d out -cp out:junit-platform-console-standalone-1.14.1.jar Test3.java
+
+java -jar junit-platform-console-standalone-1.14.1.jar --class-path out --scan-class-path
+---------------------------------------------------------------------------------------------------------
